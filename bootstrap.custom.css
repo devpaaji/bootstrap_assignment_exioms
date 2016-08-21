@@ -1,0 +1,209 @@
+
+
+#main-container{
+	width: 100%;
+}
+
+/*styles for header and navbar menu starts here */
+.navbar-inverse{
+  background: #20B2AA;
+	width: 100%;
+}
+
+.navbar-brand  {
+	font-size: 24px;
+	margin-right: 20px;
+	color: white;
+}
+#myNavbar li a{
+	color: white;
+}
+
+#myCarousel {
+	background: yellow;
+	height: auto;
+}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    height: 350px;
+  }
+
+/*general style rules used across web page starts jere*/
+.btn-info {
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    margin: 10px;
+}
+
+.well {
+	background: none;
+}
+
+/*end here*/
+
+/*style rules for bootstrap icons start here*/
+.glyphicon {
+    font-size: 50px;
+    color: #20B2AA;
+    margin: 10px;
+}
+
+.glyphicon.glyphicon-thumbs-up {
+    color: red;
+}
+
+.glyphicon.glyphicon-arrow-right {
+    font-size: 12px;
+    color: black;
+}
+
+.glyphicon.glyphicon-triangle-right {
+	font-size: 12px;
+    color: white;
+}
+
+.glyphicon.glyphicon-search{
+	font-size: 12px;
+    color: white;
+}
+
+/*end here*/
+
+/*style rule for containers or ids start here*/
+
+#features{
+	margin-top: 10px;
+	padding: 5px;
+	width: 100%;
+}
+
+.feature-block {
+	background: #FAFAFA;
+}
+
+#my-services{
+	background: #E6E6E6;
+	margin-top: 10px;
+	padding: 5px;
+	width: 100%;
+}
+#no-bg{
+	background: none;
+}
+
+#benefits, #client-slider{
+	background: #FAFAFA;
+}
+
+#btn-default-new-color{
+	background: red;
+	color: white;
+}
+
+.btn-primary, #btn-default-new-color{
+	position: absolute;
+    width: 50%;
+    left: 20%;
+}
+
+ img.img-responsive { 
+ 	max-width: 100%; 
+ }
+
+.image-box{
+	position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 20%;
+}
+  
+#image-one{
+    z-index: 1;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	right: 9;
+ 	border-radius: 5px;
+ }
+
+#image-two{
+ 	z-index: 10;
+ 	position: absolute;
+ 	top: -20px;
+ 	left: 260px;
+ 	border: 2px dashed green;
+ 	border-radius: 5px;
+ 	
+ }
+ #image-three {
+ 	z-index: 1;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 550px;
+ 	border-radius: 5px;
+}
+
+#benefits {
+	margin-top: 50px;
+}
+
+#dough-start{
+	width: 30%;
+	height: 20%;
+}
+
+/*end here*/
+
+/*clearfix class to be used on floated elements*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/*end here*/
+
+
+/*footer style rules start here*/
+#footer{
+	background: #20B2AA;
+	color: white;
+}
+
+#comments {
+	list-style: none;
+	height: auto;
+}
+#comments p {
+	width: 80%;
+	margin-top: 3px;
+}
+
+#comments img {
+	margin: 5px 3px;
+}
+
+#social-icons{
+	background: #00cca3;
+	height: auto;
+}
+
+/*end here*/
+
